@@ -1,0 +1,167 @@
+*{
+	font-family: 'Helvetica';
+	color: #444444;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+p{
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+h1{
+	text-align: center;
+}
+
+button{font-size: 14px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 960px;
+	position:relative;
+}
+
+
+.regular-checkbox {
+	
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	/*box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);*/
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	vertical-align: bottom;
+	top: 5px;
+	margin:5px 0px 5px 10px;
+}
+
+.regular-checkbox:hover{
+	background-color: #C6FFC4;
+}
+
+.regular-checkbox:checked {
+	background-color: lightgreen;
+	border: 1px solid green;
+	/*box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);*/
+	/*color: #99a1a7;*/
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: black;
+}
+
+.clear{
+	clear:both;
+}
+
+#mega-select{
+	margin-right: 40px;
+	margin-top: 18px;
+}
+#times-select, #mega-select{
+	float:left;
+	max-width:300px;
+	margin-bottom:10px;
+}
+
+
+
+.submit{
+	font-size: 16px;
+	float:left;
+	margin:40px 0px 0px 40px;
+}
+
+
+
+.prize-structure{
+	float:right;
+	display:inline-block;
+}
+
+.overlay{
+	
+	height:120px;
+	width: 240px;
+	position:absolute;
+	top: 140px;
+	left: 708px;
+	z-index: 2;
+	
+
+}
+
+.inner-overlay{
+	position:relative;
+	padding:20px;
+	border-radius: 20px;
+	display:none;
+	background-color: rgba(200,240,255, 0.94);
+	z-index: 3;
+}
+
+
+.lotto-table {
+	margin-top: 16px;
+}
+.lotto-table  tr:first-child{
+	background-color:#eeffff;
+	font-weight:bold;
+}
+
+
+.styled td{
+	border:1px solid #bbbbbb;
+	padding:4px;
+}
+
+
+.div-form{
+	padding:4px 0px 4px 4px;
+	margin-bottom: 8px;
+	width:640px;
+	float:left;
+	display:inline-block;
+	background-color: rgba(55,255,30, 0.2);
+}
+
+.label {
+	display:inline-block;
+	width:20px;
+}
+
+.input-with-label{
+	display:inline;
+	width:70px;
+}
+
+
+.winning-row{
+	background: #FFFC63;
+}
+
+
+.grand-prize{
+	font-size:30px;
+	font-weight: bold;
+	color: blue;
+}
+
+.small-prize{
+	color: green;
+	font-weight:bold;
+}
+
+
+
